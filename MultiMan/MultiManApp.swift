@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct MultiManApp: App {
+    var deviceOrientation = UIInterfaceOrientationMask.landscape
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
         }
+    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return deviceOrientation
     }
 }

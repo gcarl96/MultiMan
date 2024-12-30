@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B710BAA02A0541E400408A5A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710BA9F2A0541E400408A5A /* Player.swift */; };
+		B710BAA22A0541FD00408A5A /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710BAA12A0541FD00408A5A /* PlayerManager.swift */; };
+		B710BAA42A0542F900408A5A /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710BAA32A0542F900408A5A /* NewGameView.swift */; };
+		B710BAA62A0563D500408A5A /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710BAA52A0563D500408A5A /* GameData.swift */; };
+		B710BAA82A05691A00408A5A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710BAA72A05691A00408A5A /* HomeScreen.swift */; };
+		B710BAAA2A056AE500408A5A /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710BAA92A056AE500408A5A /* GameManager.swift */; };
+		B710BAAC2A057C2600408A5A /* LoadGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710BAAB2A057C2600408A5A /* LoadGameView.swift */; };
 		B78FCEDE29E9C74C0003F53C /* MultiManApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FCEDD29E9C74C0003F53C /* MultiManApp.swift */; };
 		B78FCEE029E9C74C0003F53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FCEDF29E9C74C0003F53C /* ContentView.swift */; };
 		B78FCEE229E9C74D0003F53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78FCEE129E9C74D0003F53C /* Assets.xcassets */; };
@@ -14,6 +21,7 @@
 		B78FCEEF29E9C74D0003F53C /* MultiManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FCEEE29E9C74D0003F53C /* MultiManTests.swift */; };
 		B78FCEF929E9C74D0003F53C /* MultiManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FCEF829E9C74D0003F53C /* MultiManUITests.swift */; };
 		B78FCEFB29E9C74D0003F53C /* MultiManUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FCEFA29E9C74D0003F53C /* MultiManUITestsLaunchTests.swift */; };
+		B7C326F62A07E4DF001746E6 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C326F52A07E4DF001746E6 /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B710BA9F2A0541E400408A5A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B710BAA12A0541FD00408A5A /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		B710BAA32A0542F900408A5A /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		B710BAA52A0563D500408A5A /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		B710BAA72A05691A00408A5A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B710BAA92A056AE500408A5A /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		B710BAAB2A057C2600408A5A /* LoadGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadGameView.swift; sourceTree = "<group>"; };
 		B78FCEDA29E9C74C0003F53C /* MultiMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78FCEDD29E9C74C0003F53C /* MultiManApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiManApp.swift; sourceTree = "<group>"; };
 		B78FCEDF29E9C74C0003F53C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,8 @@
 		B78FCEF429E9C74D0003F53C /* MultiManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78FCEF829E9C74D0003F53C /* MultiManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiManUITests.swift; sourceTree = "<group>"; };
 		B78FCEFA29E9C74D0003F53C /* MultiManUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiManUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7C326F42A06ADF8001746E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B7C326F52A07E4DF001746E6 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +111,17 @@
 		B78FCEDC29E9C74C0003F53C /* MultiMan */ = {
 			isa = PBXGroup;
 			children = (
+				B7C326F42A06ADF8001746E6 /* Info.plist */,
 				B78FCEDD29E9C74C0003F53C /* MultiManApp.swift */,
 				B78FCEDF29E9C74C0003F53C /* ContentView.swift */,
+				B7C326F52A07E4DF001746E6 /* StatsView.swift */,
+				B710BAAB2A057C2600408A5A /* LoadGameView.swift */,
+				B710BAA52A0563D500408A5A /* GameData.swift */,
+				B710BAA72A05691A00408A5A /* HomeScreen.swift */,
+				B710BAA32A0542F900408A5A /* NewGameView.swift */,
+				B710BAA92A056AE500408A5A /* GameManager.swift */,
+				B710BA9F2A0541E400408A5A /* Player.swift */,
+				B710BAA12A0541FD00408A5A /* PlayerManager.swift */,
 				B78FCEE129E9C74D0003F53C /* Assets.xcassets */,
 				B78FCEE329E9C74D0003F53C /* Preview Content */,
 			);
@@ -258,7 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78FCEE029E9C74C0003F53C /* ContentView.swift in Sources */,
+				B710BAAA2A056AE500408A5A /* GameManager.swift in Sources */,
+				B710BAA62A0563D500408A5A /* GameData.swift in Sources */,
+				B710BAA82A05691A00408A5A /* HomeScreen.swift in Sources */,
+				B710BAA02A0541E400408A5A /* Player.swift in Sources */,
+				B710BAA42A0542F900408A5A /* NewGameView.swift in Sources */,
+				B7C326F62A07E4DF001746E6 /* StatsView.swift in Sources */,
+				B710BAA22A0541FD00408A5A /* PlayerManager.swift in Sources */,
 				B78FCEDE29E9C74C0003F53C /* MultiManApp.swift in Sources */,
+				B710BAAC2A057C2600408A5A /* LoadGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +454,12 @@
 				DEVELOPMENT_TEAM = 2WFK95VGB4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiMan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to save white ball location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +484,12 @@
 				DEVELOPMENT_TEAM = 2WFK95VGB4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiMan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to save white ball location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
